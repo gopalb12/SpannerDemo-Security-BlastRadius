@@ -1,0 +1,21 @@
+# Ignore python environment and cache
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Ignore documentation
+*.md
+
+# Ignore setup and deployment scripts
+deploy_cloud_run.sh
+run_ui.sh
+setup_spanner.sh
+setup_bigquery.sh
+generate_data.py
+schema.ddl
+update_bq_from_spanner.py
+test_bq.py
+
+# Ignore temp files
+temp_graph.html
